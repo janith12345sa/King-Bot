@@ -1,7 +1,7 @@
 FROM ravindu01manoj/sewqueen:lovegift
 
-RUN git clone https://github.com/ravindu01manoj/Sew-Queen /root/QueenSewWhatsappBot
-WORKDIR /root/QueenSewWhatsappBot/
+RUN git clone https://github.com/janith12345sa/King-Bot.git /root/King-Bot
+WORKDIR /root/King-Bot/
 ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
