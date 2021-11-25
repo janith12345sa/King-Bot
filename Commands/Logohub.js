@@ -16,7 +16,7 @@ let {sendMessagelogolist} = require('sew-queen-pro/sources/dc/cmd/TextList')
 let {sendMessagelogores, sendMessagepngres} = require('sew-queen-pro/sources/dc/cmd/textmaker')
 let WorkType = Details.WORKTYPE == 'public' ? false : true
 var { FancyText, fancyList } = require("fancy-sew-amdi")
-let { MessageType, Mimetype } = require('@ravindu01manoj/sew-queen-web');
+let { MessageType, Mimetype } = require('@janith12345sa/King-Bot-web');
 var LOGODISC = '';
 var des = '';
 if (Details.LANG == 'SI') {
