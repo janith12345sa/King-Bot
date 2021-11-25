@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/janith12345sa/King-Bot#readme",
   "dependencies": {
-    "@ravindu01manoj/sew-queen-web": "1.0.1",
+    "@janith12345sa/King-Bot-web": "1.0.1",
     "network-speed": "2.1.1",
     "cheerio": "*",
     "axios": ">=0.21.2",
