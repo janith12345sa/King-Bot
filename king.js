@@ -92,9 +92,9 @@ async function sewQueen() {
         });
         DataKey.on('open', async () => {
                 console.log(SOL.LOG); console.log(SOL.PASSC);
-                if (Details.SEWRR == 'raviya') {
+                if (Details.SEWRR == 'janith') {
                         console.log(SOL.PASSD)
-                } else if (Details.SEWRR !== 'raviya') {
+                } else if (Details.SEWRR !== 'janith') {
                         throw new Error(SOL.PASSW); return;
                 }
             console.log(SOL.INSTCL); console.log(SOL.INSTC); console.log(SOL.INSTL);
@@ -122,7 +122,7 @@ async function sewQueen() {
                 let msg = m.messages.all()[0];
                 if (Details.NO_ONLINE) { await DataKey.updatePresence(msg.key.remoteJid, Presence.unavailable)}
                 await sendMessageGreetingMSG(DataKey, getMessage, msg)
-                if (GBLACK.ALL_GROUP !== 'raviya') {     
+                if (GBLACK.ALL_GROUP !== 'janith') {     
                 var grp = GBLACK.ALL_GROUP + ',' + Details.BLOCKCHAT;var sup = grp.split(',')
                 if(msg.key.remoteJid.includes('g.us') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return}
                 await sendMessageMSGMSG(DataKey, msg, 'sew', SQQA)
@@ -136,4 +136,4 @@ async function sewQueen() {
                                 await DataKey.connect();
                         } catch {
                                 return;}}}};
-    sewQueen()
+    KingBot()
