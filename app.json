@@ -1,7 +1,7 @@
 {
-    "name": "✬Sew Queen✬",
+    "name": "✬King Bot ✬",
     "description": "World Best Whatsapp Bot",
-    "logo": "https://i.ibb.co/GnqjtyG/164ff8587741.jpg",
+    "logo": "hhttps://ibb.co/cg01X7f.jpg",
     "keywords": ["sew", "sewqueen"],
     "stack": "container",
     "env": {
@@ -37,7 +37,7 @@
         "MENU_HEADER": {
             "description": "ITS CHANGE YOUR CMD LIST HEADER",
             "required": true,
-            "value": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃   *SEW QUEEN WHATSAPP BOT*\n┗━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n THIS IS SEW QUEEN CMD MENU"
+            "value": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━\n┃   *King Bot    WHATSAPP BOT*\n┗━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n THIS IS King Bot    CMD MENU"
         },
         "GROUP_MANAGE": {
             "description": "If you want the admin in the group to be able to use the admin command too, enter true. සමූහය තුල සිටින ඇඩ්මින් හටද ඇඩ්මින් විදාන භාවිතා කිරීමට හැකි සේ සැකසීම අවශ්‍යයි නම් true ලෙස ඇතුලත් කරන්න",
