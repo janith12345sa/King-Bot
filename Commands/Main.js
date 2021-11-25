@@ -12,7 +12,7 @@ let DataPack = require('sew-queen-pro');
 let SewQueen = require('sew-queen-pro/sources/dc/handler');
 let Details = require('sew-queen-pro/sources/dc/Details');
 let { sendMessageUnlimtedSpam } = require('sew-queen-pro/sources/dc/cmd/spam')
-let { MessageType, MessageOptions, Mimetype, GroupSettingChange, ChatModification } = require('@ravindu01manoj/sew-queen-web');
+let { MessageType, MessageOptions, Mimetype, GroupSettingChange, ChatModification } = require('@janith12345sa/King-Bot-web');
 let fs = require('fs'); let os = require('os'); let ffmpeg = require('fluent-ffmpeg'); let exec = require('child_process').exec;
 let axios = require('axios');
 let got = require('got');

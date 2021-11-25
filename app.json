@@ -2,10 +2,10 @@
     "name": "✬King Bot ✬",
     "description": "World Best Whatsapp Bot",
     "logo": "hhttps://ibb.co/cg01X7f.jpg",
-    "keywords": ["sew", "sewqueen"],
+    "keywords": ["king", "kingbot"],
     "stack": "container",
     "env": {
-        "_SEW_QUEEN_SESSION": {
+        "_King_Bot_SESSION": {
             "description": "Scan the QR code and enter the code obtained. QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
             "required": true
         },
@@ -104,7 +104,7 @@
         "YOUR_BOT_NAME": {
             "description": "බොට්ගේ නාමය ඇතුලත් කරන්න ==> Input The Bot Name",
             "required": false,
-            "value": "✬ MS SEW ✬"
+            "value": "😈kingbot😈"
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
@@ -146,7 +146,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Sew Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "KingBot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -217,7 +217,7 @@
             "required": false,
             "value": "false"
         },
-        "SEW_AI": {
+        "BOT_AI": {
             "description": "Artificial Intelligence Chat Bot!",
             "required": false,
             "value": "false"

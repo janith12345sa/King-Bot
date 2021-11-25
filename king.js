@@ -14,7 +14,7 @@ let SOL =require('sew-queen-pro/console')
 let {CheckUpdatesWeb, sendMessageownerMSG, sendMessageADSMSG, sendMessageBotOn, sendMessageGreetingMSG, sendMessageMSGMSG, sendMessageBlackListMSG, sendMessageBIOMSG} = require('sew-queen-pro/sources/dc/sew')
 let fs = require('fs'); let os = require('os'); let got = require('got'); let path = require("path"); let chalk = require('chalk');
 let SQQA = require('./SQ-QA')
-let {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@ravindu01manoj/sew-queen-web');  
+let {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@janith12345sa/King-Bot-web');  
 let {Message, StringSession, Image, Video} =  require('sew-queen-pro/sources/dc/Wa-Base/');
 let { DataTypes } = require('sequelize'); let { getMessage } = require("./DataBase/greetings");
 let Heroku = require('heroku-client'); let simpleGit = require('simple-git'); let git = simpleGit();
